@@ -17,6 +17,7 @@ body {
 
 .right {
     width: 65%;
+    flex-direction: column;
 }
 
 .left-content {
@@ -40,4 +41,25 @@ body {
     font-size: 32px;
     margin-left: 1rem;
     font-weight: bold;
+}
+
+.section1, .section2, .section3 {
+    display: flex;
+    padding: 15px;
+}
+
+.section1 {
+    flex-direction: column;
+}
+
+.section2 {
+    flex-direction: column;
+}
+
+label {
+    display: block;
+}
+
+textarea {
+    display: block;
 }
