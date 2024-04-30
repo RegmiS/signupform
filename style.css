@@ -61,6 +61,7 @@ body {
     box-shadow: 0 2px 2px -2px gray;
 }
 
+
 label {
     display: block;
 }
@@ -76,4 +77,38 @@ textarea {
     flex-flow: column wrap;
     gap: 0.5em;
     margin-left: -1em;
+}
+
+.account {
+    font-weight: bolder;
+    font-size: medium;
+    color: white;
+    background-color: green;
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 10px 15px;
+    margin: 30px 0;
+    max-width: 10em;
+}
+
+.accountText {
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text1, .text2, .text3, .text4 {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+.text1 {
+    margin-bottom: 0px;
+}
+
+.text2 {
+    margin-top: 2px;
 }
