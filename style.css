@@ -46,14 +46,19 @@ body {
 .section1, .section2, .section3 {
     display: flex;
     padding: 15px;
+    flex-direction: column;
+}
+
+.fillInputs {
+    display: flex;
 }
 
 .section1 {
-    flex-direction: column;
+    background-color: rgba(207, 199, 199, 0.543);
 }
 
 .section2 {
-    flex-direction: column;
+    box-shadow: 0 2px 2px -2px gray;
 }
 
 label {
@@ -62,4 +67,13 @@ label {
 
 textarea {
     display: block;
+}
+
+.leftform, .rightform {
+    display: flex;
+    flex: 1 1 auto;
+    border: none;
+    flex-flow: column wrap;
+    gap: 0.5em;
+    margin-left: -1em;
 }
