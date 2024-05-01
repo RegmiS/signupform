@@ -29,8 +29,7 @@
                     <label for="email">Email</label>
                     <input type="email" required id="email">
                     <label for="password">Password</label>
-                    <input type="password" required id="password">
-                    
+                    <input type="password" required id="password" onkeyup="checkPassword()">
                 </fieldset>
 
                 <fieldset class="rightform">
@@ -39,9 +38,10 @@
                     <label for="phone_number">Phone Number</label>
                     <input type="number" required id="phone_number">
                     <label for="confirm_password">Confirm Password</label>
-                    <input type="password" required id="confirm_password">
+                    <input type="password" required id="confirm_password" onkeyup="checkPassword()">
+                    <br>
+                    <span id="msg"></span>
                 </fieldset>
-                
                 
             </form>
         </div>
