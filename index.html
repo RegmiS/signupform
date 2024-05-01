@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup Page</title>
     <link rel="stylesheet" href="style.css"> 
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <div class="left">
@@ -24,20 +25,21 @@
             <form class="fillInputs">
                 <fieldset class="leftform">
                     <label for="first_name">First Name</label>
-                    <input type="text" id="first_name">
+                    <input type="text" required id="first_name">
                     <label for="email">Email</label>
-                    <input type="text" id="email">
-                    <label for="phone_number">Phone Number</label>
-                    <input type="text" id="phone_number">
+                    <input type="email" required id="email">
+                    <label for="password">Password</label>
+                    <input type="password" required id="password">
+                    
                 </fieldset>
 
                 <fieldset class="rightform">
-                    <label for="last_name">Last Name</label>
-                    <input type="text" id="last_name">
-                    <label for="password">Password</label>
-                    <input type="text" id="password">
+                    <label for="last_name" >Last Name</label>
+                    <input type="text" required id="last_name">
+                    <label for="phone_number">Phone Number</label>
+                    <input type="number" required id="phone_number">
                     <label for="confirm_password">Confirm Password</label>
-                    <input type="text" id="confirm_password">
+                    <input type="password" required id="confirm_password">
                 </fieldset>
                 
                 
